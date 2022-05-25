@@ -1,0 +1,47 @@
+.project {
+  min-height: 200px;
+  width: 300px;
+  max-width: calc(100vw / 4 - 1rem);
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 2px 8px #353b48;
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.5rem;
+}
+
+.project-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project-description {
+  font-weight: 300;
+}
+
+.project-url {
+  color: #0097e6
+}
+
+.project-divisor {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #7f8fa6;
+  opacity: 0.5;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.project-detail {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.project-last-commit {
+  color: #718093;
+}

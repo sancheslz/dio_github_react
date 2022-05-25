@@ -1,0 +1,12 @@
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
